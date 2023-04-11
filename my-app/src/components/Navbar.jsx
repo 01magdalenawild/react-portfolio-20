@@ -7,8 +7,7 @@ const Navbar = () => {
 
 
     {/*menu*/}
-<div>
-<ul className='flex'>
+<ul className='hidden md:flex'>
     <li>Home</li>
     <li>About</li>
     <li>Skills</li>
@@ -16,18 +15,29 @@ const Navbar = () => {
     <li>Contact</li>
    
 </ul>
-</div>
+
+
 {/*Hamburger*/}
-<div>
+<div className='md:hidden'>
 <FaBars />
 </div>
+
 {/*mobile menu*/}
-<div></div>
+<ul className='hidden'>
+<li>Home</li>
+    <li>About</li>
+    <li>Skills</li>
+    <li>Projects</li>
+    <li>Contact</li>
+   
+</ul>
        
        
        
        {/*social icons*/}
-       <div></div>
+       <div className='hidden'>
+
+       </div>
 </div>
     )
 }

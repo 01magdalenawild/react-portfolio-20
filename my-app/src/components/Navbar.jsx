@@ -26,7 +26,7 @@ const Navbar = () => {
 </div>
 
 {/*mobile menu*/}
-<ul className=' hidden absolute top-0 left-0 w-full h-screen bg-[#141a76]flex flex-col justify-center items'>
+<ul className={!nav ? 'hidden' : 'absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items center'}>
 <li>Home</li>
     <li className='py-6 text-4xl '>About</li>
     <li className='py-6 text-4xl'>Skills</li>

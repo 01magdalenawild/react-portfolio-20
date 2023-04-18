@@ -1,9 +1,10 @@
 import React from 'react'
-import Notetaker from './.assets/projects/Notetaker.png';
+import Notetaker from '../assets/projects/Notetaker.png';
 import Password from '../assets/projects/Password.png'
-import Quiz from '../assets/Quiz.png'
-import Project1 from '../assets/Project1.png'
-import Project2 from '../assets/Project2.png'
+import Quiz from '../assets/projects/Quiz.png'
+import Project1 from '../assets/projects/Project1.png'
+import Project2 from '../assets/projects/Project2.png'
+
 
 const Work = () => {
   return (
@@ -12,6 +13,7 @@ const Work = () => {
     <div className='pb-8'>
         <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Work</p>
         <p className='py-6'>// Check out some of my work</p>
+                  
     </div>
 
 <div style={{backgroundImage:'url()'}}
@@ -24,6 +26,7 @@ className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             </span>
             <div>
+                
                 <a href="/">
                     <button></button>
                 </a>

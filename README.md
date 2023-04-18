@@ -68,7 +68,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![Screenshot png](./assets/work.png)
 
 ## Link 
-
+ https://01magdalenawild.github.io/react-portfolio-20/
 # Usage 
 
 To create a portfolio, using React. The user can review and About Me section, a sample Portfolio.

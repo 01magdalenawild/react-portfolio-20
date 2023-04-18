@@ -17,15 +17,39 @@ const Work = () => {
     </div>
 
 <div style={{backgroundImage:'url()'}}
-className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+className='grid sm:grid-cols-6 md:grid-cols-3 gap-4'>
     <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content div'>
-       
-       
+    <div>
+  <img src={ Notetaker } alt="notetaker Image" />
+  <p>Notetaker</p>
+  <a href="links" />
+</div>
+
+<div>
+  <img src={ Password } alt="password Image" />
+  <p>Password Generator</p>
+  <a href="links" />
+</div>
+<div>
+  <img src={ Quiz} alt="Quiz Image" />
+  <p>Quiz </p>
+  <a href="links" />
+</div>
+<div>
+  <img src={ Project1 } alt="project Image" />
+  <p>Project 1</p>
+  <a href="links" />
+</div>
+<div>
+  <img src={ Project2 } alt="project Image" />
+  <p>Project 2</p>
+  <a href="links" />
+</div>
        <div>
             <span>
 
             </span>
-            <div>
+            <div className='pt-8 text-center'>
                 
                 <a href="/">
                     <button></button>

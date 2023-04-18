@@ -62,7 +62,13 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ### Screenshots
 
-![Screenshot1](./assets/about.png)
-![Screenshot2](./assets/greeter.png)
-![Screenshot3](./assets/skills.png)
-![Screenshot4](./assets/work.png)
+![Screenshot png](./assets/about.png)
+![Screenshot png](./assets/greeter.png)
+![Screenshot png](./assets/skills.png)
+![Screenshot png](./assets/work.png)
+
+## Link 
+
+# Usage 
+
+To create a portfolio, using React. The user can review and About Me section, a sample Portfolio.

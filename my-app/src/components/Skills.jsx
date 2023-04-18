@@ -1,5 +1,5 @@
 import React from 'react'
-import GitHub from '../assets/github-mark-white.png';
+import GitHub from '../assets/gitHub.png';
 import CSS from '../assets/CSS.png';
 import Tailwinds from '../assets/Tailwinds.png';
 import HTML from '../assets/HTML.png';
@@ -14,19 +14,19 @@ const Skills = () => {
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text center py-8'>
                     <div className='shawdow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                        <img className='w-20 mx-auto' src="{HTML.png}" alt="HTML.png" />
+                        <img className='w-20 mx-auto' src={HTML} alt="HTML.png" />
                         <p className='my-4'>HTML</p>
                     </div>
                     <div className='shawdow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                        <img className='w-20 mx-auto' src="{github-mark-white.png}" alt="Github icon" />
+                        <img className='w-20 mx-auto' src={GitHub} alt="Github icon" />
                         <p className='my-4'>Github</p>
                     </div>
                     <div className='shawdow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                        <img className='w-20 mx-auto' src="{CSS.png}" alt="CSS icon" />
+                        <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                         <p className='my-4'>CSS</p>
                     </div>
                     <div className='shawdow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                        <img className='w-20 mx-auto' src="{Tailwinds.png}" alt="Tailwinds icon" />
+                        <img className='w-20 mx-auto' src={Tailwinds} alt="Tailwinds icon" />
                         <p className='my-4'>Tailwinds</p>
                     </div>
                 </div>
